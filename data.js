@@ -1,7 +1,16 @@
+import MarkWebber from "./src/assets/avatar-mark-webber.webp";
+import AngelaGray from "./src/assets/avatar-angela-gray.webp";
+import JacobThompson from "./src/assets/avatar-jacob-thompson.webp";
+import RizkyHasanuddin from "./src/assets/avatar-rizky-hasanuddin.webp";
+import KimberlySmith from "./src/assets/avatar-kimberly-smith.webp";
+import NathanPeterson from "./src/assets/avatar-nathan-peterson.webp";
+import AnnaKim from "./src/assets/avatar-anna-kim.webp";
+import Chess from "./src/assets/image-chess.webp";
+
 const notificationDatas = [
   {
     id: 0,
-    profilePicture: "src/assets/avatar-mark-webber.webp",
+    profilePicture: MarkWebber,
     name: "Mark Webber",
     message: "reacted to your recent post",
     time: "1m ago",
@@ -12,7 +21,7 @@ const notificationDatas = [
   },
   {
     id: 1,
-    profilePicture: "src/assets/avatar-angela-gray.webp",
+    profilePicture: AngelaGray,
     name: "Angela Gray",
     message: "followed you",
     time: "5m ago",
@@ -20,7 +29,7 @@ const notificationDatas = [
   },
   {
     id: 2,
-    profilePicture: "src/assets/avatar-jacob-thompson.webp",
+    profilePicture: JacobThompson,
     name: "Jacob Thompson",
     message: "has joined your group",
     time: "1 day ago",
@@ -31,7 +40,7 @@ const notificationDatas = [
   },
   {
     id: 3,
-    profilePicture: "src/assets/avatar-rizky-hasanuddin.webp",
+    profilePicture: RizkyHasanuddin,
     name: "Rizky Hasanuddin",
     message: "sent you a private message",
     time: "5 days ago",
@@ -43,18 +52,18 @@ const notificationDatas = [
   },
   {
     id: 4,
-    profilePicture: "src/assets/avatar-kimberly-smith.webp",
+    profilePicture: KimberlySmith,
     name: "Kimberly Smith",
     message: "commented on your picture",
     time: "1 week ago",
     to: {
-      postPicture: "src/assets/image-chess.webp",
+      postPicture: Chess,
     },
     unread: false,
   },
   {
     id: 5,
-    profilePicture: "src/assets/avatar-nathan-peterson.webp",
+    profilePicture: NathanPeterson,
     name: "Nathan Peterson",
     message: "reacted to your recent post",
     time: "2 week ago",
@@ -65,7 +74,7 @@ const notificationDatas = [
   },
   {
     id: 6,
-    profilePicture: "src/assets/avatar-anna-kim.webp",
+    profilePicture: AnnaKim,
     name: "Anna Kim",
     message: "left the group",
     time: "2 week ago",
