@@ -1,0 +1,22 @@
+@use "../../scss/util/" as u;
+
+@include u.breakpoint(laptop) {
+  .Notification {
+    gap: 0.5rem;
+
+    &__Details > div {
+      position: relative;
+    }
+
+    &__PicturePost {
+      width: 40px;
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+
+    // &__Messages .To :hover {
+    //   color: u.$p-blue;
+    // }
+  }
+}

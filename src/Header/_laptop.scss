@@ -1,0 +1,13 @@
+@use "../../scss/util/" as u;
+
+@include u.breakpoint(laptop) {
+  .Header {
+    &__Title {
+      font-size: 1.25rem;
+    }
+
+    &__Counter {
+      font-size: 0.85rem;
+    }
+  }
+}
